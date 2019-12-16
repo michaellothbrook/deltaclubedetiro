@@ -18,29 +18,75 @@
     				</div>
     			</div>
     			<div class="col-md-6 col-lg-6 pl-md-5">
-	          <div class="heading-section ftco-animate">
-	            <h2 class="mb-4">Conheça <br>Quem somos</h2>
-	            <p>O Delta Clube de TIro e Caça é um clube aberto ao público, localizado na cidade de Belo Horizonte/MG. Em 2019, dois amigos praticantes e adeptos da cultura das armas resolveram expandir o conhecimento sobre tiro esportivo através de um espaço seguro e profissiona com o intuito de treinar e aperfeiçoar as tpecnicas de manuseio de armas de fogo que é a nova tendência mundial. O nome foi escolhido fazendo menção aos Delegados de Polícia, que são chamados assim entre os concurseiros e policiais. </p>
+					<div class="heading-section ftco-animate">
+						<h2 class="mb-4">Conheça <br>Quem somos</h2>
+						<p>O Delta Clube de TIro e Caça é um clube aberto ao público, localizado na cidade de Belo Horizonte/MG. Em 2019, dois amigos praticantes e adeptos da cultura das armas resolveram expandir o conhecimento sobre tiro esportivo através de um espaço seguro e profissiona com o intuito de treinar e aperfeiçoar as tpecnicas de manuseio de armas de fogo que é a nova tendência mundial. O nome foi escolhido fazendo menção aos Delegados de Polícia, que são chamados assim entre os concurseiros e policiais. </p>
 
-	            <div class="counter-wrap ftco-animate d-flex my-md-4">
-	              <div class="text">
-	              	<p class="mb-4">
-		                <span class="number" data-number="120">0</span>
-		                <span>Project complete</span>
-	                </p>
-	              </div>
-		          </div>
-		          <div class="d-flex w-100">
-		            <div class="img img-about-2 mr-2" style="background-image: url(images/about.jpg);"></div>
-		            <div class="img img-about-2 ml-2" style="background-image: url(images/about-3.jpg);"></div>
-		          </div>
-		          <blockquote class="blockquote mt-5">
-		          	<p class="mb-2">"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.."</p>
-		          	<span>&mdash; Lucy Lee</span>
-		          </blockquote>
-	          </div>
-	        </div>
-        </div>
+						<div class="counter-wrap ftco-animate d-flex my-md-4">
+						<div class="text">
+							<p class="mb-4">
+								<span class="number" data-number="120">0</span>
+								<span>Project complete</span>
+							</p>
+						</div>
+						</div>
+						<div class="d-flex w-100">
+							<div class="img img-about-2 mr-2" style="background-image: url(images/about.jpg);"></div>
+							<div class="img img-about-2 ml-2" style="background-image: url(images/about-3.jpg);"></div>
+						</div>
+						<blockquote class="blockquote mt-5">
+							<p class="mb-2">"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.."</p>
+							<span>&mdash; Lucy Lee</span>
+						</blockquote>
+					</div>
+				</div>
+				<div class="col-md-5 col-lg-5 d-flex mt-5">
+    				<div class="img-about img d-flex align-items-stretch">
+    					<div class="overlay"></div>
+	    				<div class="img img-video d-flex align-self-stretch align-items-center" style="background-image:url(images/pistola1.jpg);">
+	    					
+	    				</div>
+    				</div>
+    			</div>
+    			<div class="col-md-7 col-lg-7 pl-md-5 mt-5">
+					<div class="heading-section ftco-animate">
+						<h2 class="mb-4">Despachante</h2>
+						<p>Nossa equipe tem experiência para prestar um serviço completo de assessoria e acompanhamento de toda a sua documentação referente as suas armas. Processos de transferência de propriedade, aquisição de arma, renovação, alteração de apostilamento, ou qualquer outro tipo de situação que envolva uma arma de fogo.</p>
+
+					</div>
+				</div>
+				<div class="col-md-5 col-lg-5 d-flex mt-5">
+    				<div class="img-about img d-flex align-items-stretch">
+    					<div class="overlay"></div>
+	    				<div class="img img-video d-flex align-self-stretch align-items-center" style="background-image:url(images/pistola2.jpg);">
+	    				
+	    				</div>
+    				</div>
+    			</div>
+    			<div class="col-md-7 col-lg-7 pl-md-5 mt-5">
+					<div class="heading-section ftco-animate">
+						<h2 class="mb-4">Conheça <br>Quem somos</h2>
+						<p>O Delta Clube de TIro e Caça é um clube aberto ao público, localizado na cidade de Belo Horizonte/MG. Em 2019, dois amigos praticantes e adeptos da cultura das armas resolveram expandir o conhecimento sobre tiro esportivo através de um espaço seguro e profissiona com o intuito de treinar e aperfeiçoar as tpecnicas de manuseio de armas de fogo que é a nova tendência mundial. O nome foi escolhido fazendo menção aos Delegados de Polícia, que são chamados assim entre os concurseiros e policiais. </p>
+
+						<!-- <div class="counter-wrap ftco-animate d-flex my-md-4">
+						<div class="text">
+							<p class="mb-4">
+								<span class="number" data-number="120">0</span>
+								<span>Project complete</span>
+							</p>
+						</div>
+						</div>
+						<div class="d-flex w-100">
+							<div class="img img-about-2 mr-2" style="background-image: url(images/about.jpg);"></div>
+							<div class="img img-about-2 ml-2" style="background-image: url(images/about-3.jpg);"></div>
+						</div>
+						<blockquote class="blockquote mt-5">
+							<p class="mb-2">"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.."</p>
+							<span>&mdash; Lucy Lee</span>
+						</blockquote> -->
+					</div>
+				</div>
+			</div>
     	</div>
     </section>
 		<!-- End About Me Section -->
