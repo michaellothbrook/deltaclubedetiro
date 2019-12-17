@@ -9829,3 +9829,11 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+div.armas div div {
+  background-color: #292929;
+  padding: 10px;
+}
+#dobra-1 div div h3 {
+  color: #6e5437
+}

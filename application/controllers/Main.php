@@ -66,19 +66,30 @@ class Main extends CI_Controller {
 		// }
 		// closedir($dh4);
 
-		// $data = [];
-		// $data['assets'] = array(
-		// 			'header'=>array(
-		// 				'css'=>$filescss,
-		// 				'css2'=>$filescss2,
-		// 				'bootstrap'=>$filesboot,
-		// 				'bootstrap_js'=>$filesjs,
-		// 				'jquery'=>$filesjquery
-		// 			)
+		$iconic = 'assets/css/bootstrap/open-iconic-master/font/css';
+		$dh5 = opendir($iconic);
+		while ($filename = readdir($dh5)) {
+			if ($filename != '.' && $filename != '..'){
+				$filesicon[] = $filename;
+			}
+		}
+		closedir($dh5);
+
+		$data = [];
+		$data['assets'] = array(
+					'header'=>array(
+						// 'css'=>$filescss,
+						// 'css2'=>$filescss2,
+						// 'bootstrap'=>$filesboot,
+						// 'bootstrap_js'=>$filesjs,
+						// 'jquery'=>$filesjquery,
+						'iconic'=>$filesicon,
+					)
 				
-		// 		);
+				);
+		
 		// print_r($data['assets']);exit;
 		
-			$this->load->template('home');
+			$this->load->template('home',$data);
 	}
 }
