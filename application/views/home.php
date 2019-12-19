@@ -76,7 +76,7 @@
 					</div>
 					<div class="col-md-8">
 						<p>
-						O Clube 9mm é um clube aberto ao público, localizado na cidade de Criciúma/SC. Em 2015, quatro como resultado amigos praticantes e adeptos da cultura das como resultado armas resolveram então expandir o como resultado conhecimento sobre tiro esportivo através de um espaço como resultado seguro e profissional com o intuito de treinar e aperfeiçoar as técnicas de manuseio de armas de fogo que é a nova tendência mundial. O nome 9mm foi logo escolhido devido ao calibre, portanto logo tão sonhado entre os atiradores como resultado brasileiros, também por como resultado toda sua história como resultado como o mais eficiente e mais utilizado no mundo, que então hoje já está como resultado disponível em nosso Clube, por exemplo.
+						O Delta Clube de Tiro e Caça é um clube aberto ao público, localizado na cidade de Belo Horizonte/MG. Em 2019, dois amigos praticantes e adeptos da cultura das armas resolveram expandir o conhecimento sobre tiro esportivo através de um espaço seguro e profissional com o intuito de treinar e aperfeiçoar as técnicas de manuseio de armas de fogo que é a nova tendência mundial. O nome Delta foi escolhido fazendo menção aos Delegados de Polícia, que são chamados assim entre os concurseiros e policiais.
 						</p>
 					</div>
 					
@@ -84,9 +84,8 @@
 				<div class="row mt-5 " style="">
 					<div class="col-md-6 col-12">
 						<span class="oi oi-map-marker"></span> <span class="oi oi-target"></span> <span class="oi oi-sun"></span>
-						<h3>Área de Lazer</h3>
-						<p>Estaremos te esperando com um espaço confortável aonde poderá apreciar os atiradores em ação enquanto troca informações sobre armas de fogo e técnicas de tiro, além de um agradável bar/café e um descontraído espaço Kids.
-
+						<h3>Nossa Loja</h3>
+						<p>Quer bons preços, ótimo atendimento, e produtos de qualidade? – Então chegou a hora de você ir até a nossa Loja no Delta Clube de Tiro e Caça. Trabalhamos com as melhores marcas de artigos militares do país; Invictus, Forhonor, Bélica, Team Six, Warfare, Treme Terra Atacado e Rossi. Masculino e feminino. Calças, gandolas, combates, coturnos, canivetes, lanternas é muito mais. É isso mesmo, roupas táticas para o dia-a-dia ou para aquela operação especial, esperamos por você em nossa Loja. Preços, atendimento e parcelamentos com condições especiais. Vamos com tudo guerreiro(a).
 						</p>
 					</div>
 					<!-- <div class="col-6 text-left">
@@ -97,7 +96,7 @@
 					<div class="col-md-6 col-12">
 						<span class="oi oi-grid-two-up"></span>
 						<h3>Despachante</h3>
-						<p>Nossa equipe tem experiência para prestar um serviço completo de assessoria e acompanhamento de toda a sua documentação referente as suas armas. Processos de transferência de propriedade, aquisição de arma, renovação, alteração de apostilamento, ou qualquer outro tipo de situação que envolva uma arma de fogo.
+						<p>Nossa equipe tem experiência para prestar um serviço completo de assessoria e acompanhamento de toda a sua documentação referente as suas armas. Processos de transferência de propriedade, aquisição de arma, renovação, alteração de endereços, retirada de CR, guia de trânsito, apostilamento, ou qualquer outro tipo de situação que envolva uma arma de fogo.
 
 						</p>
 					</div>
@@ -107,8 +106,8 @@
     </section>
 		<!-- End About Me Section -->
 
-		<!-- Start Services Section -->
-		<section id="services" class="ftco-section">
+		<!-- Start armas Section -->
+		<section id="armas" class="ftco-section">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
@@ -120,46 +119,50 @@
 						</div>
 							<div class="row text-center armas">
 								<div class="col-md-3 col-12">
-									<div class="media block-6 services d-block ftco-animate">
+									<div class="media block-6 armas d-block ftco-animate">
 										<div class="text-center">
-											<img src="images/carabinas.png" alt="">
+											<img width="100" height="100" src="images/carabina.jpg" alt="">
 										</div>
-										<div class="media-body">
-											<h3 class="heading mb-3">CARABINAS</h3>
-											<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences.</p>
-										</div>
-									</div> 
-								</div>
+										<div class="media-body" class="modal-message">
+											<h3 class="heading mb-3">RIFLES/CARABINAS</h3>
+											<p class="primary">Na verdade, Mundialmente o mais usado para se referir a fuzil é o termo Rifle. Sendo que Carabina ou Rifle são Designações usadas...</p>
+											<a data-toggle="modal" href="#modal1" class="btn btn-dark">Ler tudo</a>
+										</div> 
+									</div>
+								</div>	
 								<div class="col-md-3 col-12">
-									<div class="media block-6 services d-block ftco-animate">
+									<div class="media block-6 armas d-block ftco-animate">
 										<div class="text-center">
-											<img src="images/espingardas.png" alt="">
+											<img width="100" height="100" src="images/espingarda.jpg" alt="">
 										</div>
 										<div class="media-body">
 											<h3 class="heading mb-3">ESPINGARDAS</h3>
-											<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences.</p>
-										</div>
-									</div>
-								</div>
-								<div class="col-md-3">
-									<div class="media block-6 services d-block ftco-animate">
-										<div class="text-center">
-											<img src="images/pistolas.png" alt="">
-										</div>
-										<div class="media-body">
-											<h3 class="heading mb-3">PISTOLAS</h3>
-											<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences.</p>
+											<p>Uma espingarda é uma arma de fogo portátil de alma lisa, que utiliza como munição cartuchos de projéteis múltiplos ou de um único...</p>
+											<a data-toggle="modal" href="#modal2" class="btn btn-dark">Ler tudo</a>
 										</div>
 									</div>
 								</div>
 								<div class="col-md-3 col-12">
-									<div class="media block-6 services d-block ftco-animate">
+									<div class="media block-6 armas d-block ftco-animate">
 										<div class="text-center">
-											<img src="images/revolveres.png" alt="">
+											<img width="100" height="100" src="images/pistola.jpg" alt="">
+										</div>
+										<div class="media-body">
+											<h3 class="heading mb-3">PISTOLAS</h3>
+											<p>A Pistola é uma arma de fogo ou o feeder, leve, de cano curto. Uma pistola geralmente é uma arma pequena de boa empunhadura e rápido...</p>
+											<a data-toggle="modal" href="#modal3" class="btn btn-dark">Ler tudo</a>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-3 col-12">
+									<div class="media block-6 armas d-block ftco-animate">
+										<div class="text-center">
+											<img width="100" height="100" src="images/revolver.jpg" alt="">
 										</div>
 										<div class="media-body">
 											<h3 class="heading mb-3">REVOLVERES</h3>
-											<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences.</p>
+											<p>Um revólver (em inglês: revolver) é uma arma de fogo de repetição, de porte individual, normalmente com um só cano e com....</p>
+											<a data-toggle="modal" href="#modal4" class="btn btn-dark">Ler tudo</a>
 										</div>
 									</div> 
 								</div>
@@ -245,7 +248,7 @@
 				</div>
 			</div>
 		</section>  
-		<!-- End Services Section -->
+		<!-- End armas Section -->
 
 		<!-- Start Testimonials Section -->
 		<section id="work" class="ftco-section">
@@ -606,3 +609,5 @@
       </div>
     </section>
 		<!-- End Contact Section -->
+		
+    

@@ -37,7 +37,7 @@
 	
   	<nav id="navbar" class="navbar">
 		<ul class="nav-menu">
-		    <li>
+		    <li style="min-width: 0">
 		      <a data-scroll="home" href="#home" class="dot active">
 		        <span>Home</span>
 		      </a>
@@ -48,8 +48,8 @@
 		      </a>
 		    </li>
 		    <li>
-		      <a data-scroll="services" href="#services" class="dot">
-		        <span>Serviços</span>
+		      <a data-scroll="armas" href="#armas" class="dot">
+		        <span>Armas</span>
 		      </a>
 		    </li>
 		    <li>
@@ -82,7 +82,8 @@
 						<div class="text text-left">
 						<h1 class="logo">
 							<a href="#">
-								DELTA<small>Clube de Tiro e Caça</small>
+								<!-- DELTA<small>Clube de Tiro e Caça</small> -->
+								<img width="100" height="100" src="images/logo.png" alt="">
 							</a>
 						</h1>
 							<h1 class="mb-1">Venha praticar <br>tiro esportivo conosco! <br>É fácil</h1>

@@ -39,5 +39,93 @@
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
     <script src="js/google-map.js"></script>
     <script src="js/main.js"></script>
+
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+    
+	$(document).ready(function () {
+    $(".modal-wide").on("show.bs.modal", function() {
+    var height = $(window).height() - 200;
+    $(this).find(".modal-body").css("max-height", height);
+    });
+	});
+    </script>
+
+
+      <div id="modal1" class="modal fade">
+        <div class="modal-dialog">
+          <div class="modal-content bg-dark">
+            <div class="">
+              <button type="button" class="close text-center" data-dismiss="modal" aria-hidden="true">&times;</button>
+              <h4 class="modal-title text-center" style="color: #fff;">RIFLES/CARABINAS</h4>
+            </div>
+            <div class="modal-body">
+              <p>Na verdade, Mundialmente o mais usado para se referir a fuzil é o termo Rifle. Sendo que Carabina ou Rifle são Designações usadas p/ armas de fogo portáteis, de cano Longo (maior que 28 cm). Podem ser de Repetição (bolt Action, Alavanca ou Corrediça "pump"), Semi-Automáticos ou totalmente automáticos. O termo Rifle ou Refle, são palavras de Origem Língua inglesa. A diferença entre RIFLE "fuzil" e CARABINA (carbine) é apenas o tamanho do cano, tendo a Carabina (carbine) cano menor que 46cm ou 18". Tanto RIFLE "fuzil" quanto a CARABINA para corretamente receberem essas designações precisam ter cano c/ alma raiada, sendo por definição "espingarda" apenas as armas de fogo c/ cano Longo de alma Lisa.
+
+                  Eugene Stoner, um dos Maiores projetistas de Armas de todos os tempos, idealizou uma Arquitetura para Rifles, que ficou sendo uma das Duas mais conhecidas, o projeto recebeu a Designação de AR ArmaLite AR-15, atualmente de forma ERRADA, a mídia e tantos outros dizem se tratar de abreviação para Assalt Rifle, quando na verdade o Correto é ArmaLite RIFLE já que desde o inicio do projeto, o objetivo era uma Arma Segura, funcional e o + Leve possível.</p>
+            </div>
+            <div class="modal-footer">
+              <button style="color: #fff" type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+            </div>
+          </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+      </div><!-- /.modal -->
+
+
+
+      <div id="modal2" class="modal fade">
+        <div class="modal-dialog">
+          <div class="modal-content bg-dark">
+            <div class="">
+              <button type="button" class="close text-center" data-dismiss="modal" aria-hidden="true">&times;</button>
+              <h4 class="modal-title text-center" style="color: #fff;">ESPINGARDAS</h4>
+            </div>
+            <div class="modal-body">
+              <p>Uma espingarda é uma arma de fogo portátil de alma lisa, que utiliza como munição cartuchos de projéteis múltiplos ou de um único projétil concebido para se estabilizar no voo, compensando a ausência de raiamento do cano.[1] Tornou-se a principal arma pessoal dos exércitos, desde o final do século XVII, altura em que a espingarda de pederneira substituiu o mosquete. A baioneta que era costume afixar-lhe para a luta corpo a corpo tornou-se operacionalmente praticamente obsoleta.</p>
+            </div>
+            <div class="modal-footer">
+              <button style="color: #fff" type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+            </div>
+          </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+      </div><!-- /.modal -->
+
+
+      <div id="modal3" class="modal fade">
+        <div class="modal-dialog">
+          <div class="modal-content bg-dark">
+            <div class="">
+              <button type="button" class="close text-center" data-dismiss="modal" aria-hidden="true">&times;</button>
+              <h4 class="modal-title text-center" style="color: #fff;">PISTOLAS</h4>
+            </div>
+            <div class="modal-body">
+              <p>A Pistola é uma arma de fogo ou o feeder, leve, de cano curto. Uma pistola geralmente é uma arma pequena de boa empunhadura e rápido manuseio, feita originalmente para uso pessoal (uso por uma pessoa) em ações de pequeno alcance.</p>
+            </div>
+            <div class="modal-footer">
+              <button style="color: #fff" type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+            </div>
+          </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+      </div><!-- /.modal -->
+
+
+      <div id="modal4" class="modal fade">
+        <div class="modal-dialog">
+          <div class="modal-content bg-dark">
+            <div class="">
+              <button type="button" class="close text-center" data-dismiss="modal" aria-hidden="true">&times;</button>
+              <h4 class="modal-title text-center" style="color: #fff;">REVOLVERES</h4>
+            </div>
+            <div class="modal-body">
+              <p>Um revólver (em inglês: revolver) é uma arma de fogo de repetição, de porte individual, normalmente com um só cano e com calibres variados. O depósito de cartuchos do revólver é constituído por um tambor ou cilindro giratório com várias câmaras ou culatras onde ficam os cartuchos (usualmente cinco ou seis, porém variando para mais ou para menos). O mecanismo de alimentação rotaciona este tambor um arco de revolução por disparo, de onde provém seu nome. Sistema moderno descende do projeto desenvolvido por Samuel Colt em 1836, embora o conceito existia há séculos antes da invenção de Colt. Revolveres são comumente armas de mão, porém outros tipos de armas podem ser consideradas revólveres também, como alguns rifles, lança-granadas e espingardas.Tem como excelente característica a confiabilidade no funcionamento,onde se destaca ante a pistola.</p>
+            </div>
+            <div class="modal-footer">
+              <button style="color: #fff" type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+            </div>
+          </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+      </div><!-- /.modal -->
+
   </body>
 </html>
