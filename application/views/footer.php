@@ -5,12 +5,12 @@
           <div class="col-md-12 text-center">
 
             <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> Delta Clube de Tiro
   <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
 
 					  <ul class="ftco-footer-social p-0">
-              <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-              <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+              <!-- <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li> -->
+              <!-- <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li> -->
               <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
             </ul>
           </div>
@@ -36,8 +36,6 @@
     <script src="js/aos.js"></script>
     <script src="js/jquery.animateNumber.min.js"></script>
     <script src="js/scrollax.min.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
-    <script src="js/google-map.js"></script>
     <script src="js/main.js"></script>
 
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
@@ -126,6 +124,55 @@
           </div><!-- /.modal-content -->
         </div><!-- /.modal-dialog -->
       </div><!-- /.modal -->
+
+      <script src="<?=base_url('js/jquery.mask.js')?>"></script>
+      <script>
+        $(document).ready(function(){
+            var behavior = function (val) {
+                return val.replace(/\D/g, '').length === 11 ? '(00) 00000-0000' : '(00) 0000-00009';
+            },
+            options = {
+                onKeyPress: function (val, e, field, options) {
+                    field.mask(behavior.apply({}, arguments), options);
+                }
+            };
+
+            $('#telefone').mask(behavior, options);
+
+
+            $('#ferias-alfamerica').on('submit', function(e){
+            e.preventDefault();
+            $(this).find('.sendbutton').html('Processando... aguarde <i class="fas fa-spinner fa-pulse"></i>');
+            $(this).find('.sendbutton').addClass('disabled');
+            $(this).find('.sendbutton').attr('disabled',true);
+            var url = "<?= base_url('/')?>";
+            var data = $(this).serializeArray();
+            var r;
+            $.ajax({
+                type: "POST",
+                url: url+"/submit",
+                data: data,
+                success: function(a){
+                    console.log(a);
+                    try {
+                        r = $.parseJSON(a);
+                    } catch(error) {
+                        // console.log(error);
+                        r = a;
+                    }
+                    console.log(r);
+                    if(r.database.success) {
+                        window.location.replace(url+'obrigado');
+                    }
+                },
+                dataType: "json"
+            });
+
+            
+        });
+            
+        })
+      </script>
 
   </body>
 </html>

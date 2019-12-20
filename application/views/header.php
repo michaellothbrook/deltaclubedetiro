@@ -58,11 +58,6 @@
 		      </a>
 		    </li>
 		    <li>
-		      <a data-scroll="testimonial" href="#testimonial" class="dot">
-		        <span>Testemunho</span>
-		      </a>
-		    </li>
-		    <li>
 		      <a data-scroll="contact" href="#contact" class="dot">
 		        <span>Contato</span>
 		      </a>
@@ -80,15 +75,15 @@
 				<div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center">
 					<div class="col-lg-12 ftco-animate d-flex align-items-center">
 						<div class="text text-left">
-						<h1 class="logo">
-							<a href="#">
+						<h1 class="logo text-center">
+							<a href="<?=base_url()?>">
 								<!-- DELTA<small>Clube de Tiro e Caça</small> -->
-								<img width="100" height="100" src="images/logo.png" alt="">
+								<img style="border-color: transparent" width="100" height="100" src="images/logo.png" alt="">
 							</a>
 						</h1>
 							<h1 class="mb-1">Venha praticar <br>tiro esportivo conosco! <br>É fácil</h1>
 							<p class="mb-1">Temos instrutores e diversos tipos de armas para você conhecer este esporte.</p>
-							<p class="mt-5"><a href="#" class="btn-custom">Saiba Mais <span class="ion-ios-arrow-round-forward"></span></a></p>
+							<p class="mt-5"><a data-scroll="about" href="#about" class="btn-custom dot">Saiba Mais <span class="ion-ios-arrow-round-forward"></span></a></p>
 						</div>
 					</div>
 				</div>

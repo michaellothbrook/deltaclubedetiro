@@ -8163,7 +8163,7 @@ h1, h2, h3, h4, h5,
 .h1, .h2, .h3, .h4, .h5 {
   line-height: 1.5;
   color: #fff;
-  font-weight: normal; }
+  font-weight: bold; }
 
 strong {
   font-weight: 500; }
@@ -8436,14 +8436,14 @@ strong {
         font-size: 30px; } }
   .slider-text .logo {
     position: relative;
-    display: inline-block;
-    font-size: 40px;
+    display: block;
+    font-size: 2rem;
     margin-bottom: 2em; }
     .slider-text .logo a {
       position: relative;
       z-index: 0;
       color: #fff;
-      border: 1px solid rgba(255, 255, 255, 0.2);
+      /* border: 1px solid rgba(255, 255, 255, 0.2); */
       border-top: none;
       padding: 0 15px;
       display: block; }
@@ -9835,5 +9835,8 @@ div.armas div div {
   padding: 10px;
 }
 #dobra-1 div div h3 {
-  color: #6e5437
+  color: #eeda94
+}
+h4 {
+  font-weight: bold !important;
 }

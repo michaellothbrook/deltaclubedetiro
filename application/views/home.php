@@ -72,7 +72,7 @@
             <div id="dobra-1" class="container" style="">
                 <div class="row mt-5 mb-5">
 					<div class="col-md-3">
-						<h2>Conheça <br><span class="lead display-4" style="color: #6e5437">Quem somos</span></h2>
+						<h2>Conheça <br><span class="lead display-4" style="color: #eeda94">Quem somos</span></h2>
 					</div>
 					<div class="col-md-8">
 						<p>
@@ -83,7 +83,7 @@
 				</div>
 				<div class="row mt-5 " style="">
 					<div class="col-md-6 col-12">
-						<span class="oi oi-map-marker"></span> <span class="oi oi-target"></span> <span class="oi oi-sun"></span>
+						<span class="oi oi-sun"></span>
 						<h3>Nossa Loja</h3>
 						<p>Quer bons preços, ótimo atendimento, e produtos de qualidade? – Então chegou a hora de você ir até a nossa Loja no Delta Clube de Tiro e Caça. Trabalhamos com as melhores marcas de artigos militares do país; Invictus, Forhonor, Bélica, Team Six, Warfare, Treme Terra Atacado e Rossi. Masculino e feminino. Calças, gandolas, combates, coturnos, canivetes, lanternas é muito mais. É isso mesmo, roupas táticas para o dia-a-dia ou para aquela operação especial, esperamos por você em nossa Loja. Preços, atendimento e parcelamentos com condições especiais. Vamos com tudo guerreiro(a).
 						</p>
@@ -124,7 +124,7 @@
 											<img width="100" height="100" src="images/carabina.jpg" alt="">
 										</div>
 										<div class="media-body" class="modal-message">
-											<h3 class="heading mb-3">RIFLES/CARABINAS</h3>
+											<h4 class="heading mb-3">RIFLES/CARABINAS</h4>
 											<p class="primary">Na verdade, Mundialmente o mais usado para se referir a fuzil é o termo Rifle. Sendo que Carabina ou Rifle são Designações usadas...</p>
 											<a data-toggle="modal" href="#modal1" class="btn btn-dark">Ler tudo</a>
 										</div> 
@@ -136,7 +136,7 @@
 											<img width="100" height="100" src="images/espingarda.jpg" alt="">
 										</div>
 										<div class="media-body">
-											<h3 class="heading mb-3">ESPINGARDAS</h3>
+											<h4 class="heading mb-3">ESPINGARDAS</h4>
 											<p>Uma espingarda é uma arma de fogo portátil de alma lisa, que utiliza como munição cartuchos de projéteis múltiplos ou de um único...</p>
 											<a data-toggle="modal" href="#modal2" class="btn btn-dark">Ler tudo</a>
 										</div>
@@ -148,7 +148,7 @@
 											<img width="100" height="100" src="images/pistola.jpg" alt="">
 										</div>
 										<div class="media-body">
-											<h3 class="heading mb-3">PISTOLAS</h3>
+											<h4 class="heading mb-3">PISTOLAS</h4>
 											<p>A Pistola é uma arma de fogo ou o feeder, leve, de cano curto. Uma pistola geralmente é uma arma pequena de boa empunhadura e rápido...</p>
 											<a data-toggle="modal" href="#modal3" class="btn btn-dark">Ler tudo</a>
 										</div>
@@ -160,7 +160,7 @@
 											<img width="100" height="100" src="images/revolver.jpg" alt="">
 										</div>
 										<div class="media-body">
-											<h3 class="heading mb-3">REVOLVERES</h3>
+											<h4 class="heading mb-3">REVOLVERES</h4>
 											<p>Um revólver (em inglês: revolver) é uma arma de fogo de repetição, de porte individual, normalmente com um só cano e com....</p>
 											<a data-toggle="modal" href="#modal4" class="btn btn-dark">Ler tudo</a>
 										</div>
@@ -262,165 +262,23 @@
 		  </div> 
 		  <div class="container-fluid px-md-0">
 				<div class="row no-gutters">
-					<div class="col-md-4 col-12 ftco-animate">
-						<div class="model img d-flex align-items-end" style="background-image: url(images/model-1.jpg);">
-							<a href="images/model-1.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
+					<?php foreach($images['galeria'] as $imgs): ?>
+						<?php if(substr($imgs,0,3) == 'IMG'): ?>
+							<div class="col-md-4 col-12 ftco-animate">
+								<div class="model img d-flex align-items-end" style="background-image: url(images/<?=$imgs?>);">
+									<a href="images/<?=$imgs?>" class="icon image-popup d-flex justify-content-center align-items-center">
 										<span class="icon-expand"></span>
 									</a>
-							<div class="desc w-100 px-4">
-							<div class="text w-100 mb-3">
-								<span>Nature</span>
-								<h2><a href="work-single.html">Beautiful Work</a></h2>
-							</div>
-						</div>
-						</div>
-					</div>
-					<div class="col-md-4 col-12 ftco-animate">
-						<div class="model img d-flex align-items-end" style="background-image: url(images/model-2.jpg);">
-							<a href="images/model-2.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-										<span class="icon-expand"></span>
-									</a>
-							<div class="desc w-100 px-4">
-								<div class="text w-100 mb-3">
-									<span>Nature</span>
-									<h2><a href="work-single.html">Beautiful Work</a></h2>
+									<!-- <div class="desc w-100 px-4">
+										<div class="text w-100 mb-3">
+											<span>Nature</span>
+											<h2><a href="work-single.html">Beautiful Work</a></h2>
+										</div>
+									</div> -->
 								</div>
 							</div>
-						</div>
-					</div>
-					<div class="col-md-4 col-12 ftco-animate">
-						<div class="model img d-flex align-items-end" style="background-image: url(images/model-3.jpg);">
-							<a href="images/model-3.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-										<span class="icon-expand"></span>
-									</a>
-							<div class="desc w-100 px-4">
-							<div class="text w-100 mb-3">
-								<span>Nature</span>
-								<h2><a href="work-single.html">Beautiful Work</a></h2>
-							</div>
-						</div>
-						</div>
-					</div>
-
-					<div class="col-md-4 col-12 ftco-animate">
-						<div class="model img d-flex align-items-end" style="background-image: url(images/model-4.jpg);">
-							<a href="images/model-4.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-										<span class="icon-expand"></span>
-									</a>
-							<div class="desc w-100 px-4">
-							<div class="text w-100 mb-3">
-								<span>Nature</span>
-								<h2><a href="work-single.html">Beautiful Work</a></h2>
-							</div>
-						</div>
-						</div>
-					</div>
-					<div class="col-md-4 col-12 ftco-animate">
-						<div class="model img d-flex align-items-end" style="background-image: url(images/model-5.jpg);">
-							<a href="images/model-5.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-										<span class="icon-expand"></span>
-									</a>
-							<div class="desc w-100 px-4">
-							<div class="text w-100 mb-3">
-								<span>Nature</span>
-								<h2><a href="work-single.html">Beautiful Work</a></h2>
-							</div>
-						</div>
-						</div>
-					</div>
-					<div class="col-md-4 col-12 ftco-animate">
-						<div class="model img d-flex align-items-end" style="background-image: url(images/model-6.jpg);">
-							<a href="images/model-6.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-										<span class="icon-expand"></span>
-									</a>
-							<div class="desc w-100 px-4">
-							<div class="text w-100 mb-3">
-								<span>Nature</span>
-								<h2><a href="work-single.html">Beautiful Work</a></h2>
-							</div>
-						</div>
-						</div>
-					</div>
-
-					<div class="col-md-4 col-12 ftco-animate">
-						<div class="model img d-flex align-items-end" style="background-image: url(images/model-7.jpg);">
-							<a href="images/model-7.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-										<span class="icon-expand"></span>
-									</a>
-							<div class="desc w-100 px-4">
-							<div class="text w-100 mb-3">
-								<span>Nature</span>
-								<h2><a href="work-single.html">Beautiful Work</a></h2>
-							</div>
-						</div>
-						</div>
-					</div>
-					<div class="col-md-4 col-12 ftco-animate">
-						<div class="model img d-flex align-items-end" style="background-image: url(images/model-8.jpg);">
-							<a href="images/model-8.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-										<span class="icon-expand"></span>
-									</a>
-							<div class="desc w-100 px-4">
-							<div class="text w-100 mb-3">
-								<span>Nature</span>
-								<h2><a href="work-single.html">Beautiful Work</a></h2>
-							</div>
-						</div>
-						</div>
-					</div>
-					<div class="col-md-4 col-12 ftco-animate">
-						<div class="model img d-flex align-items-end" style="background-image: url(images/model-9.jpg);">
-							<a href="images/model-9.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-										<span class="icon-expand"></span>
-									</a>
-							<div class="desc w-100 px-4">
-							<div class="text w-100 mb-3">
-								<span>Nature</span>
-								<h2><a href="work-single.html">Beautiful Work</a></h2>
-							</div>
-						</div>
-						</div>
-					</div>
-
-					<div class="col-md-4 col-12 ftco-animate">
-						<div class="model img d-flex align-items-end" style="background-image: url(images/model-10.jpg);">
-							<a href="images/model-10.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-										<span class="icon-expand"></span>
-									</a>
-							<div class="desc w-100 px-4">
-							<div class="text w-100 mb-3">
-								<span>Nature</span>
-								<h2><a href="work-single.html">Beautiful Work</a></h2>
-							</div>
-						</div>
-						</div>
-					</div>
-					<div class="col-md-4 col-12 ftco-animate">
-						<div class="model img d-flex align-items-end" style="background-image: url(images/model-11.jpg);">
-							<a href="images/model-11.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-										<span class="icon-expand"></span>
-									</a>
-							<div class="desc w-100 px-4">
-							<div class="text w-100 mb-3">
-								<span>Nature</span>
-								<h2><a href="work-single.html">Beautiful Work</a></h2>
-							</div>
-						</div>
-						</div>
-					</div>
-					<div class="col-md-4 col-12 ftco-animate">
-						<div class="model img d-flex align-items-end" style="background-image: url(images/model-12.jpg);">
-							<a href="images/model-12.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-										<span class="icon-expand"></span>
-									</a>
-							<div class="desc w-100 px-4">
-							<div class="text w-100 mb-3">
-								<span>Nature</span>
-								<h2><a href="work-single.html">Beautiful Work</a></h2>
-							</div>
-						</div>
-						</div>
-					</div>
+						<?php endif ?>
+					<? endforeach ?>
 				</div>
 			</div> 
 		</section>
@@ -553,7 +411,8 @@
           		</div>
           		<div>
 	          		<h3 class="mb-4">Telefone</h3>
-		            <p><a href="tel://1234567920">(031) 3646 - 5219</a></p>
+		            <p>(31) 98471-6305</p>
+		            <p>(31) 3646 - 5219</p>
 	            </div>
 	          </div>
           </div>
@@ -564,7 +423,7 @@
           		</div>
           		<div>
 	          		<h3 class="mb-4">Email</h3>
-		            <p><a href="mailto:info@yoursite.com">juan@deltaclubedetiro.com.br</a></p>
+		            <p><a href="mailto:info@yoursite.com">atendimento@deltaclubedetiro.com.br</a></p>
 		          </div>
 	          </div>
           </div>
@@ -585,16 +444,19 @@
           <div class="col-md-6 col-12 ftco-animate">
             <form action="#" class="contact-form p-4 p-md-5 py-md-5">
               <div class="form-group">
-                <input type="text" class="form-control" placeholder="Seu nome">
+                <input type="text" class="form-control" placeholder="Seu nome" required name="nome" id="nome">
               </div>
               <div class="form-group">
-                <input type="text" class="form-control" placeholder="Seu Email">
+                <input type="text" class="form-control" placeholder="Seu Email" required name="email" id="email">
+			  </div>
+			  <div class="form-group">
+                <input type="tel" class="form-control" placeholder="Seu Telefone/Celular" required name="telefone" id="telefone" pattern="\([0-9]{2}\)[\s][0-9]{4}-[0-9]{4,5}">
               </div>
               <div class="form-group">
-                <input type="text" class="form-control" placeholder="Assunto">
+                <input type="text" class="form-control" placeholder="Assunto" name="assunto" id="assunto">
               </div>
               <div class="form-group">
-                <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Mensagem"></textarea>
+                <textarea name="mensagem" id="mensagem" cols="30" rows="7" class="form-control" placeholder="Mensagem"></textarea>
               </div>
               <div class="form-group">
                 <input type="submit" value="Enviar mensagem" class="btn btn-primary py-3 px-5">
@@ -603,7 +465,8 @@
           </div>
 
           <div class="col-md-6 col-12 d-flex align-items-stretch">
-          	<div id="map"></div>
+			  <!-- <div id="map"></div> -->
+			  <iframe height="100%" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3753.7437809871767!2d-43.977461685056795!3d-19.80845793965662!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa68fc910a6c66f%3A0x27497a7d2189bcf2!2sAv.%20El%C3%ADas%20Ant%C3%B4nio%20Issa%2C%20321d%20-%20Let%C3%ADcia%2C%20Belo%20Horizonte%20-%20MG%2C%2031570-010!5e0!3m2!1spt-BR!2sbr!4v1576802225587!5m2!1spt-BR!2sbr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
           </div>
         </div>
       </div>
