@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>DELTA - Clube de tiro</title>
+    <title>Site Projeto</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<?php foreach($assets['header']['iconic'] as $iconics): ?>
@@ -77,8 +77,7 @@
 						<div class="text text-left">
 						<h1 class="logo text-center">
 							<a href="<?=base_url()?>">
-								<!-- DELTA<small>Clube de Tiro e Caça</small> -->
-								<img style="border-color: transparent" width="100" height="100" src="images/logo.png" alt="">
+								<img id="logo" style="border-color: transparent" width="100" height="100" src="images/logo.png" alt="">
 							</a>
 						</h1>
 							<h1 class="mb-1">Venha praticar <br>tiro esportivo conosco! <br>É fácil</h1>

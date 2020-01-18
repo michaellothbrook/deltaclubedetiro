@@ -4,14 +4,15 @@
 		    <div class="row">
           <div class="col-md-12 text-center">
 
-            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> Delta Clube de Tiro
-  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+            <p>
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> Michael Duarte
+            </p>
 
 					  <ul class="ftco-footer-social p-0">
               <!-- <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li> -->
               <!-- <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li> -->
-              <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+              <li class="ftco-animate"><a target="_blank" href=""><span class="icon-instagram"></span></a></li>
+              <li class="ftco-animate"><a target="_blank" href=""><span class="icon-whatsapp"></span></a></li>
             </ul>
           </div>
         </div>
@@ -125,6 +126,28 @@
         </div><!-- /.modal-dialog -->
       </div><!-- /.modal -->
 
+
+
+      <button id="open-modal" type="button" class="btn btn-info btn-lg d-none" data-toggle="modal" data-target="#modal5"></button>
+      <div id="modal5" class="modal fade">
+        <div class="modal-dialog">
+          <div class="modal-content bg-dark">
+            <div class="">
+              <a href="<?=base_url()?>" type="button" class="close text-center" data-dismiss="" aria-hidden="true">&times;</a>
+              <h4 class="modal-title text-center" style="color: #fff;">Site Projeto</h4>
+            </div>
+            <div class="modal-body">
+              <p>Agradecemos o interesse, em breve entraremos em contato! </p>
+            </div>
+            <div class="modal-footer">
+              <a href="<?=base_url('')?>">
+              <button style="color: #fff" type="button" class="btn btn-default" data-dismiss="">Fechar</button>
+              </a>
+            </div>
+          </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+      </div><!-- /.modal -->
+
       <script src="<?=base_url('js/jquery.mask.js')?>"></script>
       <script>
         $(document).ready(function(){
@@ -138,40 +161,31 @@
             };
 
             $('#telefone').mask(behavior, options);
+            $('#cpf').mask('000.000.000-00')
 
-
-            $('#ferias-alfamerica').on('submit', function(e){
+            $('#form-delta').on('submit', function(e){
             e.preventDefault();
-            $(this).find('.sendbutton').html('Processando... aguarde <i class="fas fa-spinner fa-pulse"></i>');
+            $(this).find('.sendbutton').val('Enviando...');
             $(this).find('.sendbutton').addClass('disabled');
             $(this).find('.sendbutton').attr('disabled',true);
+
             var url = "<?= base_url('/')?>";
             var data = $(this).serializeArray();
             var r;
             $.ajax({
                 type: "POST",
-                url: url+"/submit",
+                url: url+"submit",
                 data: data,
                 success: function(a){
+                  $('#open-modal').trigger('click');
                     console.log(a);
-                    try {
-                        r = $.parseJSON(a);
-                    } catch(error) {
-                        // console.log(error);
-                        r = a;
-                    }
-                    console.log(r);
-                    if(r.database.success) {
-                        window.location.replace(url+'obrigado');
-                    }
                 },
-                dataType: "json"
             });
 
-            
+            return false;
         });
             
-        })
+        });
       </script>
 
   </body>
